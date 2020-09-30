@@ -31,4 +31,14 @@ public class PersonaController {
         return  personaDto;
     }*/
 
+
+    @PostMapping("/login")
+    public PersonaDto login(@RequestBody PersonaDto user){
+
+        System.out.println("UUUUUUUUUUUUUUUUUSSSSSSSSSSSSEEEEEEEEEEEEERRRRRRRRRRR    ---  "+user.getNicknameUser());
+
+        PersonaDto userDto=new PersonaDto(personaService.verifyUser(user));
+        return userDto;
+
+    }
 }
