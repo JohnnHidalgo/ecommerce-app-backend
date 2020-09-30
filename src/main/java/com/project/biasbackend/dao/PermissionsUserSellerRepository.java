@@ -1,9 +1,9 @@
 package com.project.biasbackend.dao;
 
 import com.project.biasbackend.domain.PermissionUserSeller;
-import org.hibernate.metamodel.model.convert.spi.JpaAttributeConverter;
+import org.springframework.data.jpa.repository.JpaRepository;
+/*
+public interface PermissionsUserSellerRepository extends JpaRepository<PermissionUserSeller, Integer> {
 
-public interface PermissionsUserSellerRepository extends JpaAttributeConverter<PermissionUserSeller, Integer> {
-
-    PermissionUserSeller findPermissionUserSellerbyidPermissionUserSeller( int var1 );
-}
+//    PermissionUserSeller findByIdPermissionuser( int var1 );
+}*/

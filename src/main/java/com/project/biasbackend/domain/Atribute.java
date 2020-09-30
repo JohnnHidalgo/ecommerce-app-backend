@@ -20,14 +20,14 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "atribute")
-@NamedQueries({
+/*@NamedQueries({
     @NamedQuery(name = "Atribute.findAll", query = "SELECT a FROM Atribute a"),
     @NamedQuery(name = "Atribute.findByIdAtribute", query = "SELECT a FROM Atribute a WHERE a.idAtribute = :idAtribute"),
     @NamedQuery(name = "Atribute.findByData", query = "SELECT a FROM Atribute a WHERE a.data = :data"),
     @NamedQuery(name = "Atribute.findByTxUser", query = "SELECT a FROM Atribute a WHERE a.txUser = :txUser"),
     @NamedQuery(name = "Atribute.findByTxHost", query = "SELECT a FROM Atribute a WHERE a.txHost = :txHost"),
     @NamedQuery(name = "Atribute.findByTxDate", query = "SELECT a FROM Atribute a WHERE a.txDate = :txDate"),
-    @NamedQuery(name = "Atribute.findByActive", query = "SELECT a FROM Atribute a WHERE a.active = :active")})
+    @NamedQuery(name = "Atribute.findByActive", query = "SELECT a FROM Atribute a WHERE a.active = :active")})*/
 public class Atribute implements Serializable {
 
     private static final long serialVersionUID = 1L;

@@ -29,7 +29,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "persona")
-@NamedQueries({
+/*@NamedQueries({
     @NamedQuery(name = "Persona.findAll", query = "SELECT p FROM Persona p"),
     @NamedQuery(name = "Persona.findByIdUser", query = "SELECT p FROM Persona p WHERE p.idUser = :idUser"),
     @NamedQuery(name = "Persona.findByNicknameUser", query = "SELECT p FROM Persona p WHERE p.nicknameUser = :nicknameUser"),
@@ -38,7 +38,7 @@ import javax.persistence.Table;
     @NamedQuery(name = "Persona.findByLastName", query = "SELECT p FROM Persona p WHERE p.lastName = :lastName"),
     @NamedQuery(name = "Persona.findBySecondLastName", query = "SELECT p FROM Persona p WHERE p.secondLastName = :secondLastName"),
     @NamedQuery(name = "Persona.findByMail", query = "SELECT p FROM Persona p WHERE p.mail = :mail"),
-    @NamedQuery(name = "Persona.findByPassword", query = "SELECT p FROM Persona p WHERE p.password = :password")})
+    @NamedQuery(name = "Persona.findByPassword", query = "SELECT p FROM Persona p WHERE p.password = :password")})*/
 public class Persona implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -215,5 +215,5 @@ public class Persona implements Serializable {
     public String toString() {
         return "proyectokajoy.biasecommerce.Persona[ idUser=" + idUser + " ]";
     }
-    
+
 }

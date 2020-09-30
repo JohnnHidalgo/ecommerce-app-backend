@@ -1,8 +1,8 @@
 package com.project.biasbackend.dao;
 
 import com.project.biasbackend.domain.UserAdmin;
-import org.hibernate.metamodel.model.convert.spi.JpaAttributeConverter;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserAdminRepository extends JpaAttributeConverter<UserAdmin,Integer> {
-     UserAdmin findUserAdminbyidUserAdmin(int var1 );
-}
+/*public interface UserAdminRepository extends JpaRepository<UserAdmin,Integer> {
+//     UserAdmin findByIdUseradmin(int var1 );
+}*/
